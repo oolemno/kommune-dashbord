@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/ssb/:path*",
+      "destination": "https://data.ssb.no/api/v0/no/table/:path*"
+    },
+    {
+      "source": "/api/brreg/:path*",
+      "destination": "https://data.brreg.no/:path*"
+    },
+    {
+      "source": "/api/valg/:path*",
+      "destination": "https://valgresultat.no/:path*"
+    }
+  ]
+}

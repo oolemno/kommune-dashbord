@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-const ssbMotorDir = path.resolve(__dirname, "../../ssb-motor/src");
+const ssbMotorDir = path.resolve(__dirname, "ssb-motor-src");
 const browserCachePath = path.resolve(__dirname, "src/lib/browser-cache.ts");
 
 export default defineConfig({
